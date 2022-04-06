@@ -1,4 +1,0 @@
-# docker忽略的文件
-**/node_modules
-**/mongodb-data
-README.md

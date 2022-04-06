@@ -28,4 +28,8 @@ export class UsersService {
       })
       .exec();
   }
+
+  getHello(): string {
+    return 'Ok';
+  }
 }
