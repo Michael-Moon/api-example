@@ -30,6 +30,6 @@ export class UsersService {
   }
 
   getHello(): string {
-    return 'Ok';
+    return 'ok';
   }
 }
