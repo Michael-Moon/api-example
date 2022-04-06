@@ -1,1 +1,1 @@
-web: nom run deploy
+web: npm run deploy
