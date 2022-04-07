@@ -8,13 +8,14 @@ import { UsersModule } from './users/users.module';
   imports: [
     UsersModule,
     MongooseModule.forRoot(
-      'mongodb+srv://maestro:maestropasswd@cluster0.xmxew.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
-      {
-        useFindAndModify: false,
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true,
-      },
+      'mongodb://maestro:maestropasswd@167.71.249.87:27017/maestro',
+      // 'mongodb+srv://maestro:maestropasswd@cluster0.xmxew.mongodb.net/myFirstDatabase?retryWrites=true&w=majority',
+      // {
+      //   useFindAndModify: false,
+      //   useNewUrlParser: true,
+      //   useUnifiedTopology: true,
+      //   useCreateIndex: true,
+      // },
       // 'mongodb+srv://bancoteste:teste1992@cluster0.yzedg.mongodb.net/test',
       // 'mongodb://localhost:27017/db?authSource=admin&readPreference=primary',
       // 'mongodb://mongodb:3000/DB',

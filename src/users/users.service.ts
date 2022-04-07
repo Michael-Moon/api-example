@@ -30,6 +30,6 @@ export class UsersService {
   }
 
   getHello(): string {
-    return 'Hello World!';
+    return 'ok conectado com outro banco';
   }
 }
